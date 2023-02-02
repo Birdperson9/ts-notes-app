@@ -33,7 +33,6 @@ export function NoteForm({ onSubmit, onAddTag, availableTags }: NoteFormProps) {
       <Stack gap={4}>
         <Row>
           <Col>
-            S
             <Form.Group controlId='title'>
               <Form.Label>Title</Form.Label>
               <Form.Control ref={titleRef} required />
