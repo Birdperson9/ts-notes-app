@@ -1,5 +1,5 @@
 import { Badge, Button, Col, Row, Stack } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useNote } from './NoteLayout'
 import ReactMarkdown from 'react-markdown'
 
